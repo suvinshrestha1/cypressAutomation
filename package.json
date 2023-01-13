@@ -1,0 +1,30 @@
+{
+  "name": "cypresspractice",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "cy:open:google": "cypress open --config-file cypress-google.config.js",
+    "cy:open:amazon": "cypress open --config-file cypress-amazon.config.js",
+    "cy:open:qaAzureWebsite": "cypress open --config-file cypress-qaAzureWebsite.config.js",
+    "cy:open:demoqa": "cypress open --config-file cypress-demoqa.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "cypresstest"
+  },
+  "author": "suvinshrestha",
+  "license": "ISC",
+  "dependencies": {
+    "cypress": "^11.2.0",
+    "cypress-mochawesome-reporter": "^3.2.3"
+  },
+  "devDependencies": {
+    "@4tw/cypress-drag-drop": "^2.2.3",
+    "cypress-iframe": "^1.0.1",
+    "cypress-xpath": "^2.0.1"
+  }
+  
+
+  }
