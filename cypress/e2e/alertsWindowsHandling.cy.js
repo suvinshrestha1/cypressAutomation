@@ -6,6 +6,7 @@ describe('alertHandling',()=>{
         cy.on('window:alert',(t)=>{
             expect(t).to.contains('I am a JS Alert');
             // CypressShresthaBranch created, cloned and modified in local machine
+            //new Test
         })
         cy.get('#result').should('have.text','You successfully clicked an alert')
     })
